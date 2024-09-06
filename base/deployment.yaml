@@ -4,7 +4,7 @@ metadata:
   name: the-deployment
   namespace: flux-learning
 spec:
-  replicas: 5
+  replicas: 8
   selector:
     matchLabels:
       deployment: hello
